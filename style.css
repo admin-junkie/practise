@@ -1,0 +1,383 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.helping {
+    height: 25rem;
+    width: full;
+    position: relative;
+    border-radius: 100px;
+}
+
+.bgimage {
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+    position: absolute;
+}
+
+.overlay-text {
+   
+    z-index: 1; /* Set a higher z-index to place it above the image */
+    position: absolute;
+    margin-top: 1rem; /* Adjust the positioning as needed */
+    margin-left: 2rem;
+   
+    height: 23rem;
+    width: 92rem;
+}
+.flight{
+    height: 1.5rem;
+    width: 5rem;
+    margin-left: 0rem;
+    border: 1px solid black; 
+}
+.stay{
+    height: 1.5rem;
+    width: 5rem;
+    margin-top: -3rem;
+  margin-left: 6rem;  
+  border: 1px solid black; 
+  position: relative;
+  bottom: 24px;
+}
+.golobe{
+    width: 3.5rem;
+    margin-top: -1.5rem;
+    margin-left: 48rem;   
+  }
+.login{
+    width: 3rem;
+    margin-left: 84rem;
+    height: 2rem;  
+    border: 1px solid black; 
+  }
+  .loginse{
+    margin-top: -2rem;
+  }
+.Signup{
+    width: 4rem;
+    margin-top: -25rem;
+    margin-left: 87.5rem;
+    height: 2rem;  
+    border: 1px solid black;    
+
+  }
+.helpingother{
+    width: 7rem;
+    margin-top: -1rem;
+    margin-left: 46.5rem;
+    display: flex;
+}
+.live{
+    width: 20rem;
+    height: 5rem;
+    margin-top: 0.5rem;
+    margin-left: 40rem;
+}
+.special{
+    width: 14rem;
+    margin-top: 0.5rem;
+    margin-left: 44rem;
+}
+.box{
+    background-color:#FFFFFF;
+    border-radius: 5px;
+    width: 84rem;
+    height: 10rem;
+    margin-top: 3rem;
+    margin-left: 4rem;
+}
+.flights{
+    height: 2rem;
+    width: 3rem;
+    margin-left: 1rem;
+    border: 1px solid black; 
+}
+.stays{
+    height: 2rem;
+    width: 3rem;
+    margin-top: -2rem;
+    margin-left: 5rem;
+    border: 1px solid black; 
+}
+.promo{
+    height: 2rem;
+    border-block-end-style: dashed;
+    width: 9rem;
+    margin-left: 67rem;
+    margin-top: 5rem;
+    border: 1px solid black; 
+}
+.showflight{
+    height: 2rem;
+    width: 6rem;
+    margin-left: 77rem;
+    margin-top: -2rem;
+    border: 1px solid black; 
+    background-color: #8DD3BB26;
+}
+.plan{
+    border-color: rgb(175, 164, 154);
+   height: 4rem;
+    width: 28rem;
+    margin-left: 10rem;
+    margin-top: 5rem;
+}
+.seemore {
+    height: 2rem;
+    width: 8rem;
+    margin-left: 80rem;
+    margin-top: -2rem;
+    border: 1px solid black; /* Add this line for a black outer border */
+}
+
+ .country{
+    background-color: rgb(121, 111, 111); 
+    height: 25rem;
+     width: 80rem;
+     border-radius: 5px;
+     margin-left: 8rem;
+     margin-top: 3rem;
+     padding-top: 1em ;
+ }
+ .turkey{
+    background-color: rgb(213, 206, 206);
+    border-radius: 4px;
+    height: 5rem;
+     width: 20rem;
+     margin-top: 2rem;
+     margin-left: 4rem;
+     padding-left: 6rem;
+     padding-top: 1rem;  
+ }
+ .pic{
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    /* position: absolute; */
+    /* top: 0; */
+
+  
+
+ }
+ .tur{
+    height:40px;
+     width:50px; 
+     position: absolute;
+     padding-left: 20px; 
+     padding-top: 20px;
+ }
+ .maldives{
+    background-color: rgb(213, 206, 206);
+    height: 5rem;
+     width: 20rem;
+     padding-left: 5rem;
+     border-radius: 4px;
+     margin-top: 2.5rem;
+     margin-left: 4rem;
+   
+ }
+ .uk{
+    background-color: rgb(213, 206, 206);
+    height: 5rem;
+     width: 20rem;
+     padding-left: 5rem;
+     border-radius: 4px;
+     margin-top: 3rem;
+     margin-left: 4rem;
+ }
+ .aus{
+    background-color: rgb(213, 206, 206);
+    height: 5rem;
+    width: 20rem;
+     border-radius: 4px;
+     margin-top: -20.5rem;
+     margin-left: 30rem;
+     padding-left: 5rem;
+ }
+ .france{
+    background-color: rgb(213, 206, 206);
+    height: 5rem;
+     width: 20rem;
+     border-radius: 4px;
+     padding-left: 5rem;
+     margin-top: 2.4rem;
+     margin-left: 30rem;
+ }
+ .japan{
+    background-color: rgb(213, 206, 206);
+    height: 5rem;
+     width: 20rem;
+     border-radius: 4px;
+     padding-left: 5rem;
+     margin-top: 3rem;
+     margin-left: 30rem;
+ }
+ .azerbaijan{
+    background-color: rgb(213, 206, 206);
+    height: 5rem;
+     width: 20rem;
+     padding-left: 5rem;
+     border-radius: 4px;
+     margin-top: -20.5rem;
+     margin-left: 57rem;
+ }
+ .us{
+    background-color: rgb(213, 206, 206);
+    height: 5rem;
+     width: 20rem;
+     margin-top: 2.4rem;
+     border-radius: 4px;
+     padding-left: 5rem;
+     margin-left: 57rem;
+ }
+ .uae{
+    background-color: rgb(213, 206, 206);
+    height: 5rem;
+     width: 20rem;
+     border-radius: 4px;
+     padding-left: 5rem;
+     margin-top: 3rem;
+     margin-left: 57rem;
+ }
+ /* .b1{
+    background-image: url('/images/ny.png');
+    object-fit: cover;
+    border-radius: 5px;
+    height: 20rem;
+    width: 40rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-left: 4rem;
+    align-items: center;
+    padding-top: 8rem;
+    background-repeat: no-repeat;
+    
+ } */
+
+ .b1 {
+    background-image: url('/images/ny.png');
+    background-size: cover; /* Add this line to make the image cover the entire div */
+    height: 20rem;
+    width: 40rem;
+    object-fit: cover; 
+    border-radius: 5px;
+    background-repeat: no-repeat;   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-left: 4rem;
+    align-items: center;
+    padding-top: 8rem;
+
+}
+
+ .b2{
+    background-color: rgb(160, 151, 167);
+    border-radius: 5px;
+    height: 20rem;
+    width: 40rem;
+    margin-left: 50rem;
+   margin-top: -20rem;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding-top: 8rem;
+ } 
+ .reviews{
+    height: 2rem;
+    width: 25rem;
+    margin-right: 110rem;
+    margin-top: 5rem;
+ }
+ .big {
+    display: flex;  
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+
+/* rating content */
+ .s1{
+    background-color: rgb(114, 150, 226);
+    border-radius: 5px;
+    height: 15rem;
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  
+ }
+
+.s1content1{
+    width: 20rem;
+    
+
+}
+.s1content2{
+    width: 30rem;
+   
+
+
+}
+.s1content3{
+    text-align: right;
+    
+}
+
+
+ .s2{ 
+    background-color: rgb(114, 150, 226);
+    border-radius: 5px;
+    height: 15rem;
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+ }
+
+.s2content1{
+    width: 20rem;
+    
+
+}
+.s2content2{
+    width: 10rem;
+   
+
+
+}
+.s2content3{
+    text-align: right;
+    
+}
+ .s3{ 
+    background-color: rgb(114, 150, 226);
+    border-radius: 5px;
+    height: 15rem;
+    width: 25rem;
+    margin-left: 2.5rem; 
+    flex-direction: column;
+    justify-content: space-between; 
+ }
+
+.s3content1{
+    width: 20rem;
+    
+}
+.s3content2{
+    width: 25rem;
+
+}
+
+.s3content3{
+    text-align: right;
+} 
